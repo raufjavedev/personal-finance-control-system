@@ -87,7 +87,7 @@ Para utilizar la aplicación, primero debes configurar la base de datos en MySQL
    ```
 2. **Importar el esquema y datos iniciales** (ajusta el comando según el nombre de tu base de datos y el archivo SQL ([database.sql](database.sql))):
 
-   > ❗Debes importar la siguiente base de datos: [**`database.sql`**](database.sql)
+   >❗Debes importar la siguiente base de datos: [**`database.sql`**](database.sql)
 
    - **CMD**
       ```sh
@@ -98,12 +98,12 @@ Para utilizar la aplicación, primero debes configurar la base de datos en MySQL
       Get-Content database.sql | mysql -u usuario -p nombre_base_datos
       ```
 
-      > 💡También puedes importar la base de datos utilizando herramientas gráficas como *MySQL Workbench* o *phpMyAdmin*, lo que facilita la gestión y visualización de los datos.
+      >💡También puedes importar la base de datos utilizando herramientas gráficas como *MySQL Workbench* o *phpMyAdmin*, lo que facilita la gestión y visualización de los datos.
 
 
 3. Configurar el archivo `dbconfig.properties` con los datos de conexión.
 
-   > ❗Crea el archivo `dbconfig.properties` en la ruta `src/main/resources/`.
+   >❗Crea el archivo `dbconfig.properties` en la ruta `src/main/resources/`.
 
    ```properties
    db.server=SERVER
